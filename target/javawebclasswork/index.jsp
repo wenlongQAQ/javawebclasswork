@@ -19,7 +19,7 @@
 <%
     }
 %>
-<a href="login.html">登录</a>
+<a href="login.jsp">登录</a>
 <a href="">注册</a>
 <a href="quitServlet">退出</a>
 <a href="index.jsp">回到首页</a>

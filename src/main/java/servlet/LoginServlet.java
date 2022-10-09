@@ -16,6 +16,10 @@ public class LoginServlet extends HttpServlet {
             request.getSession().setAttribute("username","李文龙");
             response.sendRedirect("success.jsp");
         }
+        else{
+            request.getSession().setAttribute("loginCode","error");
+            request.getRequestDispatcher("login.jsp").forward(request,response);
+        }
     }
 
     @Override
