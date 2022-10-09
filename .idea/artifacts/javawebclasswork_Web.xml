@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="javawebclasswork:Web">
+    <output-path>$PROJECT_DIR$/out/artifacts/javawebclasswork_Web</output-path>
+    <root id="archive" name="javawebclasswork_Web.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="javawebclasswork" />
+        </element>
+        <element id="javaee-facet-resources" facet="javawebclasswork/web/Web" />
+      </element>
+    </root>
+  </artifact>
+</component>
