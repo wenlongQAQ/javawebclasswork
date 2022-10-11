@@ -22,6 +22,7 @@
 <a href="login.jsp">登录</a>
 <a href="">注册</a>
 <a href="quitServlet">退出</a>
+<a href="person.jsp">个人中心</a>
 <a href="index.jsp">回到首页</a>
 </body>
 </html>

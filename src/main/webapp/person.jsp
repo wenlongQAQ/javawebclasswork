@@ -1,17 +1,29 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: 86152
+  Date: 2022/10/11
+  Time: 14:51
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+<head>
+    <title>peroson
+    </title>
+</head>
 <body>
 <%
     HttpSession session1 = request.getSession();
+    Object userIdentity = session1.getAttribute("userIdentity");
     Object username = session1.getAttribute("username");
     if (username!=null){
 %>
 <%=
-    "<p> 欢迎你" + username + "</p>"
+"<p> 欢迎你" + username + "</p>" + "<br> 你的操作权限为:" + userIdentity
 %>
 <%
 }
-    else{
+else{
 %>
 <%=
 "<p>请你先登录,谢谢 </p>"
